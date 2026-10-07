@@ -54,3 +54,19 @@ footer {
     background-color: #222;
     color: white;
 }
+ .proyecto {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.proyecto h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.proyecto p {
+    line-height: 1.6;
+}
