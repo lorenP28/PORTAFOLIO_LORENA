@@ -33,9 +33,9 @@ main {
 
 section {
     background-color: white;
-    scroll-margin-bottom: 20xp;
+    scroll-margin-bottom: 20px;
     padding: 25px;
-    border-radius: 10;
+    border-radius: 10px;
           
 }
 
@@ -55,13 +55,17 @@ footer {
     color: white;
 }
  .proyecto {
-    background-color: white;
+    background-color: #f8f9fa;
     padding: 20px;
     margin: 20px 0;
-    border-radius: 10px;
+    border-radius: 12px;
+    border-left: 5px solid #222;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
 }
-
+.proyecto:hover {
+    transform: translateY(-5px);
+}
 .proyecto h3 {
     margin-top: 0;
     color: #333;
